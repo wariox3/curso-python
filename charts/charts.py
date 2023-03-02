@@ -6,5 +6,5 @@ def generate_pie_chart():
 
     fig, ax = pylot.subplots()
     ax.pie(values, labels=labels)
-    pylot.savefig('.pie.png')
+    pylot.savefig('pie.png')
     pylot.close()
